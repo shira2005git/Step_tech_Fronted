@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פורום</title>
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="foroom1.css">
+</head>
+<body onload="getForum()">
+    <nav  id="H7">
+        <a href="../home.html" id="a1">דף הבית</a>
+        <a href="../pages/foroom1.html" id="a2">פורום צ'אט איכות</a>
+        <a href="../pages/movies.html"id="a3" >סרטונים</a>
+        <a href="../pages/users.html"id="a4">חברות</a>
+        <a href="../pages/form.html"id="a5">הרשמה</a>
+        <a href="../pages/about.html"id="a6">כמה מילים עלינו</a> 
+    </nav>
+
+    <header>
+        <img src="../img/לוגו גמור.png"  id="logo" alt="">
+    </header>
+
+<h1>ברוכות הבאות לפורום שלנו!</h1>
+<h2 >שמנה לב: השארת  תגובה ע"י שם משתמש ומספר משתמש</h2>
+<a href="#H6">לתחתית הדף והשארת תגובה</a>
+<br>
+<br>
+<br>
+<hr>
+
+<div id="postsContainer"></div> 
+
+<section>
+        
+<hr id="H6">
+<a href="#H7">לראש הדף</a>
+       <h1>להוספת תגובה</h1>
+       <br>
+       <br>
+        <label for="">שם משתמש</label>
+        <input id="name" type="text">
+        <br>
+        <br>
+        <br>
+        <label for="">סיסמא</label>
+        <input id="pass" type="password">
+        <br>
+        <br>
+        <br>
+        <textarea  name="" id="text" cols="70" rows="10" placeholder="התגובה שלי"></textarea>
+        <br>
+       <button id="send" onclick="send()">לשליחה</button>
+       
+    </form>
+    
+    <footer>
+        <br><br>`
+        <img id="img" src="../img/משפטים/תמונה3.jpg" alt="">
+        <br><br><br><br><br><br>
+    </footer>
+
+
+
+
+        
+
+    </section>
+
+    <script src="foroom1.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+#a5
+{
+border-bottom: 3px;
+border-bottom: blue;
+border-bottom: solid;
+}
+#a1
+{
+border-bottom: 3px;
+border-bottom: blue;
+border-bottom: none;
+}
+#h1
+{
+font-size: 300%;
+color: dodgerblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#h2
+{
+font-size: 200%;
+color: dimgray;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

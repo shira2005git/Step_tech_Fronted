@@ -1,0 +1,112 @@
+
+
+ */
+/* עיצוב כללי של הדף */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* צבע רקע בהיר */
+    color: #495057; /* צבע טקסט כהה לקריאות טובה יותר */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* עיצוב של המלבן שמכיל את הטופס */
+.container {
+    background-color: #f3f6f7; /* צבע רקע לבן */
+    border-radius: 0.375rem; /* פינות מעוגלות */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* הצללה עדינה */
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px; /* רוחב מקסימלי של הטופס */
+    border: 1px solid #e1dee6; /* גבול בהיר */
+}
+
+/* עיצוב של הלייבלים */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #495057; /* צבע טקסט כהה */
+}
+
+/* עיצוב של שדות הקלט */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 50%; /* רוחב של חצי מהמלבן */
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da; /* גבול בהיר */
+    border-radius: 0.375rem; /* פינות מעוגלות */
+    font-size: 1rem;
+    background-color: #ffffff; /* צבע רקע של השדה */
+}
+
+/* צבע של הפלייסהולדרים */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: #6c757d; /* צבע של הפלייסהולדר */
+}
+
+/* עיצוב של הכפתור */
+button {
+    background-color: #007bff; /* צבע רקע כחול */
+    color: #ffffff; /* צבע טקסט לבן */
+    border: none;
+    padding: 0.5rem 1rem; /* צמצום הריווח הפנימי */
+    border-radius: 0.375rem; /* פינות מעוגלות */
+    cursor: pointer;
+    font-size: 0.875rem; /* גודל טקסט קטן יותר */
+    width: 50%; /* רוחב של חצי מהמלבן */
+    transition: background-color 0.3s;
+    margin-top: 1rem; /* ריווח מעל הכפתור */
+    display: block; /* לוודא שהכפתור תופס את הרוחב המוגדר */
+    margin-left: auto;
+    margin-right: auto; /* מרכז את הכפתור */
+}
+
+/* צבע של הכפתור בעת ריחוף */
+button:hover {
+    background-color: #0056b3; /* צבע רקע כהה יותר בעת ריחוף */
+}
+
+/* עיצוב רספונסיבי */
+@media (max-width: 576px) {
+    .container {
+        padding: 1.5rem;
+        width: 95%; /* רוחב מלא למסכים קטנים */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        padding: 0.5rem;
+        width: 100%; /* רוחב מלא למסכים קטנים */
+    }
+
+    button {
+        padding: 0.5rem;
+        font-size: 0.75rem; /* גודל טקסט קטן יותר למסכים קטנים */
+        width: 100%; /* רוחב מלא במסכים קטנים */
+    }
+}
+
+
+
+
+#a5
+{
+border-bottom: 3px;
+border-bottom: blue;
+border-bottom: solid;
+}
+#a1
+{
+border-bottom: 3px;
+border-bottom: blue;
+border-bottom: none;
+}
